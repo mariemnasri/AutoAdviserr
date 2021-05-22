@@ -222,12 +222,12 @@ header .intro-text {
 	padding-bottom: 200px;
 	text-align: center;
 }
-/* Features Section */
-#features {
+/* prestations Section */
+#prestations {
 	padding: 100px 0;
 	background: #f6f6f6;
 }
-#features i.fa {
+#prestations i.fa {
 	font-size: 38px;
 	margin-bottom: 20px;
 	transition: all 0.5s;
@@ -239,20 +239,20 @@ header .intro-text {
 	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
 	box-shadow: 10px 10px 10px rgba(0,0,0,.05);
 }
-/* About Section */
-#about {
+/* garages Section */
+#garages {
 	padding: 100px 0;
 }
-#about h3 {
+#garages h3 {
 	font-size: 22px;
 	margin: 0 0 20px 0;
 }
-#about h2 {
+#garages h2 {
 	position: relative;
 	margin-bottom: 15px;
 	padding-bottom: 15px;
 }
-#about h2::after {
+#garages h2::after {
 	position: absolute;
 	content: "";
 	background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
@@ -261,13 +261,13 @@ header .intro-text {
 	bottom: 0;
 	left: 0;
 }
-#about .about-text li {
+#garages .garages-text li {
 	margin-bottom: 6px;
 	margin-left: 6px;
 	list-style: none;
 	padding: 0;
 }
-#about .about-text li:before {
+#garages .garages-text li:before {
 	content: '\f00c';
 	font-family: 'FontAwesome';
 	color: #5ca9fb;
@@ -275,14 +275,14 @@ header .intro-text {
 	font-weight: 300;
 	padding-right: 8px;
 }
-#about img {
+#garages img {
 	width: 520px;
 	margin-top: 10px;
 	background: #fff;
 	border-right: 0;
 	box-shadow: 0 0 50px rgba(0,0,0,0.06);
 }
-#about p {
+#garages p {
 	line-height: 24px;
 	margin: 30px 0;
 }
@@ -329,15 +329,15 @@ header .intro-text {
 #services .service-desc {
 	margin-bottom: 40px;
 }
-/* Portfolio Section */
-#portfolio {
+/* garagiste Section */
+#garagiste {
 	padding: 100px 0;
 }
-.portfolio-item {
+.garagiste-item {
 	margin: 1px -15px 0 -14px;
 	padding: 0;
 }
-.portfolio-item .hover-bg {
+.garagiste-item .hover-bg {
 	overflow: hidden;
 	position: relative;
 	margin: 0;
@@ -413,21 +413,21 @@ header .intro-text {
 	font-weight: 600;
 	color: #666;
 }
-/* Team Section */
-#team {
+/* aide Section */
+#aide {
 	padding: 100px 0;
 }
-#team h4 {
+#aide h4 {
 	margin: 5px 0;
 }
-#team .team-img {
+#aide .aide-img {
 	width: 240px;
 }
-#team .thumbnail {
+#aide .thumbnail {
 	background: transparent;
 	border: 0;
 }
-#team .thumbnail .caption {
+#aide .thumbnail .caption {
 	padding: 10px 0 0 0;
 	color: #888;
 }
@@ -574,7 +574,7 @@ color: #777;
 }
 
 @media (max-width: 768px) {
-#about img {
+#garages img {
 	margin: 50px 0;
 }
 }

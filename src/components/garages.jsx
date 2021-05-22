@@ -1,14 +1,14 @@
-export const About = (props) => {
+export const Garages = (props) => {
   return (
-    <div id='about'>
+    <div id='garages'>
       <div className='container'>
         <div className='row'>
           <div className='col-xs-12 col-md-6'>
             {' '}
-            <img src='img/about.jpg' className='img-responsive' alt='' />{' '}
+            <img src='img/garages.jpg' className='img-responsive' alt='' />{' '}
           </div>
           <div className='col-xs-12 col-md-6'>
-            <div className='about-text'>
+            <div className='garages-text'>
               <h2>Nos garages</h2>
               <p>{props.data ? props.data.paragraph : 'loading...'}</p>
               <h3>Choisir le meilleur ?</h3>

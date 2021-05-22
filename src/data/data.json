@@ -5,7 +5,7 @@
         "paragraph": "Le premier site Tunisien qui vous aidera a choisir le meilleur garagiste  "
 
     },
-    "About": {
+    "Garages": {
         "paragraph": "Garages et Centres auto : meilleurs avis et prix pas chers !",
         "Why": [
             "Lorem ipsum dolor",
@@ -84,22 +84,22 @@
             "name": "Johnathan Doe"
         }
     ],
-    "Team": [{
-            "img": "img/team/01.jpg",
+    "aide": [{
+            "img": "img/aide/01.jpg",
             "name": "John Doe",
             "job": "Director"
         },
         {
-            "img": "img/team/02.jpg",
+            "img": "img/aide/02.jpg",
             "name": "Mike Doe",
             "job": "Senior Designer"
         }, {
-            "img": "img/team/03.jpg",
+            "img": "img/aide/03.jpg",
             "name": "Jane Doe",
             "job": "Senior Designer"
         },
         {
-            "img": "img/team/04.jpg",
+            "img": "img/aide/04.jpg",
             "name": "Karen Doe",
             "job": "Project Manager"
         }
@@ -112,7 +112,7 @@
         "twitter": "twitter.com",
         "youtube": "youtube.com"
     },
-    "Features": [{
+    "Prestations": [{
             "icon": "fa fa-dollar",
             "title": "Comparez les prix des prestations pour votre voiture ",
             "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."

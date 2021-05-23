@@ -10,7 +10,7 @@ import { Aide} from './components/aide'
 import { Contact } from './components/contact'
 import JsonData from './data/data.json'
 import SmoothScroll from 'smooth-scroll'
-
+import {Vidange} from './components/vidange'
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
   speedAsDuration: true,

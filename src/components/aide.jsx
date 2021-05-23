@@ -3,7 +3,7 @@ export const Aide = (props) => {
     <div id='aide' className='text-center'>
       <div className='container'>
         <div className='col-md-8 col-md-offset-2 section-title'>
-          <h2>Meet the aide</h2>
+          <h2>Besoin d'aide?</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
             dapibus leonec.

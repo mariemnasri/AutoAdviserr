@@ -112,25 +112,25 @@
         "twitter": "twitter.com",
         "youtube": "youtube.com"
     },
-    "Prestations": [{
-            "icon": "fa fa-dollar",
-            "title": "Comparez les prix des prestations pour votre voiture ",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    "Garagiste": [{
+            "icon": "fa fa-user",
+            "title": "Connexion à mon espace pro",
+            "text": ""
         },
         {
-            "icon": "fa fa-car",
-            "title": "Entretenir pour votre voiture",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "icon": "fa fa-user-plus",
+            "title": "Je souhaite m'inscrire",
+            "text": ""
         },
         {
-            "icon": "fa fa-money",
-            "title": "Comment faire des économies sur votre budget auto ?",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "icon": "fa fa-plus",
+            "title": "Actus garagistes",
+            "text": ""
         },
         {
-            "icon": "fa fa-magic",
-            "title": "Des conseils et des guides pour tous les automobilistes",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "icon": "fa fa-question",
+            "title": "FAQ garagistes",
+            "text": ""
         }
     ]
 }

@@ -2,22 +2,205 @@ export const Prestations = (props) => {
   return (
     <div id='prestations' className='text-center'>
       <div className='container'>
-        <div className='col-md-10 col-md-offset-1 section-title'>
-          <h2>Nos prestations</h2>
+        <div className='section-title'>
+          <h2>Nos presations </h2>
+          <p>
+          L'entretien de votre voiture n'a jamais été aussi simple avec AutoAdviser !  </p>
+          <p>Retrouvez ci-dessous l'ensemble des interventions disponibles sur notre site  </p>
+         
         </div>
         <div className='row'>
-          {props.data
-            ? props.data.map((d, i) => (
-                <div key={`${d.title}-${i}`} className='col-xs-6 col-md-3'>
+          <div className='garagiste-items'>
+            <div className='col-sm-6 col-md-4 col-lg-4'>
+              <div className='garagiste-item'>
+                <div className='hover-bg'>
                   {' '}
-                  <i className={d.icon}></i>
-                  <h3>{d.title}</h3>
-                  <p>{d.text}</p>
-                 
-                  
+                  <a
+                    href='#'
+                    title='Project Title'
+                    data-lightbox-gallery='gallery1'
+                  >
+                    <div className='hover-text'>
+                      <h4>Révision / Vidange </h4>
+                    </div>
+                    <img
+                      src='img/prestations/01-small.jpg'
+                      className='img-responsive'
+                      alt='Révision / Vidange'
+                    />{' '}
+                  </a>{' '}
                 </div>
-              ))
-            : 'Loading...'}
+              </div>
+            </div>
+            <div className='col-sm-6 col-md-4 col-lg-4'>
+              <div className='garagiste-item'>
+                <div className='hover-bg'>
+                  {' '}
+                  <a
+                    href='#'
+                    title='Project Title'
+                    data-lightbox-gallery='gallery1'
+                  >
+                    <div className='hover-text'>
+                      <h4>Courroie de distribution</h4>
+                    </div>
+                    <img
+                      src='img/prestations/02-small.jpg'
+                      className='img-responsive'
+                      alt='Courroie de distribution'
+                    />{' '}
+                  </a>{' '}
+                </div>
+              </div>
+            </div>
+            <div className='col-sm-6 col-md-4 col-lg-4'>
+              <div className='garagiste-item'>
+                <div className='hover-bg'>
+                  {' '}
+                  <a
+                    href='#'
+                    title='Project Title'
+                    data-lightbox-gallery='gallery1'
+                  >
+                    <div className='hover-text'>
+                      <h4>Plaquettes de freins </h4>
+                    </div>
+                    <img
+                      src='img/prestations/03-small.jpg'
+                      className='img-responsive'
+                      alt='Plaquettes de freins '
+                    />{' '}
+                  </a>{' '}
+                </div>
+              </div>
+            </div>
+            <div className='col-sm-6 col-md-4 col-lg-4'>
+              <div className='garagiste-item'>
+                <div className='hover-bg'>
+                  {' '}
+                  <a
+                    href='#'
+                    title='Project Title'
+                    data-lightbox-gallery='gallery1'
+                  >
+                    <div className='hover-text'>
+                      <h4>Parrallélisme </h4>
+                    </div>
+                    <img
+                      src='img/prestations/04-small.jpg'
+                      className='img-responsive'
+                      alt='Parrallélisme '
+                    />{' '}
+                  </a>{' '}
+                </div>
+              </div>
+            </div>
+            <div className='col-sm-6 col-md-4 col-lg-4'>
+              <div className='garagiste-item'>
+                <div className='hover-bg'>
+                  {' '}
+                  <a
+                    href='#'
+                    title='Project Title'
+                    data-lightbox-gallery='gallery1'
+                  >
+                    <div className='hover-text'>
+                      <h4>Amortisseurs </h4>
+                    </div>
+                    <img
+                      src='img/prestations/05-small.jpg'
+                      className='img-responsive'
+                      alt='Amortisseurs'
+                    />{' '}
+                  </a>{' '}
+                </div>
+              </div>
+            </div>
+            <div className='col-sm-6 col-md-4 col-lg-4'>
+              <div className='garagiste-item'>
+                <div className='hover-bg'>
+                  {' '}
+                  <a
+                    href='#'
+                    title='Project Title'
+                    data-lightbox-gallery='gallery1'
+                  >
+                    <div className='hover-text'>
+                      <h4>Echappement</h4>
+                    </div>
+                    <img
+                      src='img/prestations/06-small.jpg'
+                      className='img-responsive'
+                      alt='Echappement'
+                    />{' '}
+                  </a>{' '}
+                </div>
+              </div>
+            </div>
+            <div className='col-sm-6 col-md-4 col-lg-4'>
+              <div className='garagiste-item'>
+                <div className='hover-bg'>
+                  {' '}
+                  <a
+                    href='#'
+                    title='Project Title'
+                    data-lightbox-gallery='gallery1'
+                  >
+                    <div className='hover-text'>
+                      <h4>Embrayage</h4>
+                    </div>
+                    <img
+                      src='img/prestations/07-small.jpg'
+                      className='img-responsive'
+                      alt='Project Title'
+                    />{' '}
+                  </a>{' '}
+                </div>
+              </div>
+            </div>
+            <div className='col-sm-6 col-md-4 col-lg-4'>
+              <div className='garagiste-item'>
+                <div className='hover-bg'>
+                  {' '}
+                  <a
+                    href='#'
+                    title='Project Title'
+                    data-lightbox-gallery='gallery1'
+                  >
+                    <div className='hover-text'>
+                      <h4>Climatistation </h4>
+                    </div>
+                    <img
+                      src='img/prestations/08-small.jpg'
+                      className='img-responsive'
+                      alt='Project Title'
+                    />{' '}
+                  </a>{' '}
+                </div>
+              </div>
+            </div>
+            <div className='col-sm-6 col-md-4 col-lg-4'>
+              <div className='garagiste-item'>
+                <div className='hover-bg'>
+                  {' '}
+                  <a
+                    href='#'
+                    title='Project Title'
+                    data-lightbox-gallery='gallery1'
+                  >
+                    <div className='hover-text'>
+                      <h4>Décalaminage </h4>
+                    </div>
+                    <img
+                      src='img/prestations/09-small.jpg'
+                      className='img-responsive'
+                      alt='Project Title'
+                    />{' '}
+                  </a>{' '}
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

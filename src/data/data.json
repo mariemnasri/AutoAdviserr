@@ -133,5 +133,11 @@
             "title": "FAQ garagistes",
             "text": ""
         }
-    ]
+    
+    ],
+    "Vidange": {
+
+        "title": "Révision voiture ",
+        "paragraph": "La révision auto de votre véhicule est une étape importante et essentielle à son fonctionnement. Le constructeur de votre véhicule a conçu un programme d’entretien qu’il convient, à minima, de respecter. Bon à savoir : Pour faire votre révision au meilleur rapport qualité prix, certains garages ou centres auto partenaires vous proposent même un forfait révision ! Dans le cadre de cette prestation, plusieurs contrôles de niveaux sont souvent proposés et vous permettre de reprendre la route en toute sécurité l'esprit serein."
+    }
 }

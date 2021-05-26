@@ -336,6 +336,7 @@ header .intro-text {
 .garagiste-item {
 	margin: 1px -15px 0 -14px;
 	padding: 0;
+	max-width: 100%;
 }
 .garagiste-item .hover-bg {
 	overflow: hidden;
@@ -578,3 +579,8 @@ color: #777;
 	margin: 50px 0;
 }
 }
+/*Vidange section*/
+#vidange .container {
+padding-top:  100px; ;
+}
+

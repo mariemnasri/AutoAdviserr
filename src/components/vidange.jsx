@@ -9,12 +9,7 @@ export const Vidange = (props) => {
               <span></span>
             </h1>
             <p>{props.data ? props.data.paragraph : 'Loading'}</p>
-            <a
-              href='#prestations'
-              className='btn btn-custom btn-lg page-scroll'
-            >
-              Learn
-                      </a>{' '}
+          
 
           </div>
           <div className='col-xs-12 col-md-6'>

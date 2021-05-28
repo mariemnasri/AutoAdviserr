@@ -579,8 +579,16 @@ color: #777;
 	margin: 50px 0;
 }
 }
-/*Vidange section*/
-#vidange .container {
-padding-top:  100px; ;
+/*top padding section*/
+#vidange,#garages,#services,#prestations,#services,#garagistes,
+#courroie,#amortisseur,#climatisation,#decalaminage,#echappement,
+#embrayage,#plaquettes .container {
+padding-top:  100px; 
 }
+
+#courroie h2 {
+	font-size: 22px;
+	
+}
+
 

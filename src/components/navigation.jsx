@@ -15,8 +15,8 @@ export const Navigation = (props) => {
             <span className='icon-bar'></span>{' '}
             <span className='icon-bar'></span>{' '}
           </button>
-          <a className='navbar-brand page-scroll' href='/'>
-           AutoAdviser
+          <a className='navbar-brand' href='/'>
+            AutoAdviser
           </a>{' '}
         </div>
 
@@ -26,34 +26,39 @@ export const Navigation = (props) => {
         >
           <ul className='nav navbar-nav navbar-right'>
             <li>
-              <a href='#prestations' className='page-scroll'>
+              <a href='/prestations' className=''>
                 Nos prestations
               </a>
             </li>
             <li>
-              <a href='#garages' className='page-scroll'>
+              <a href='/garages' className=''>
                 Nos garages
               </a>
             </li>
             <li>
-              <a href='#services' className='page-scroll'>
+              <a href='/entretien' className=''>
                 Entrenir ma voiture
               </a>
             </li>
-            <li>
-              <a href='#garagiste' className='page-scroll'>
+            <li className="nav-item dropdown">
+              <a href='' className="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Vous êtes garagiste ?
               </a>
+              <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a className="dropdown-item" href="/ConnexionProfessionnel">Connexion a mon espace pro</a>
+                <br/>
+                <a className="dropdown-item" href="InscriptionProfessionnel">Je souhaite m'inscrire</a>
+              </div>
             </li>
             <li>
-              <a href='#aide' className='page-scroll'>
-                Besoin d'aide ? 
+              <a href='/aide' className=''>
+                Besoin d'aide ?
               </a>
-            </li> 
-            <li>
-              <a href="#compte"><i className="fa fa-user"></i></a>
             </li>
-              
+            <li>
+              <a href="/compte"><i className="fa fa-user"></i></a>
+            </li>
+
           </ul>
         </div>
       </div>

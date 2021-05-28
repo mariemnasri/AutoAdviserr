@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { Contact } from './contact'
 export const Prestations = (props) => {
   return (
     <div id='prestations' className='text-center'>
@@ -11,8 +12,8 @@ export const Prestations = (props) => {
 
         </div>
 
-       
-<div className="row"> 
+
+        <div className="row">
           <div className="container">
             <div className="row">
               <div className='col-6 col-md-4'>
@@ -150,80 +151,82 @@ export const Prestations = (props) => {
                   </div>
                 </div>
               </div>
-</div>
-              <div className="row">
-                <div className='col-6 col-md-4'>
-                  <div className='garagiste-item'>
-                    <div className='hover-bg'>
-                      {' '}
-                      <a
-                        href='/embrayage'
-                        title='Project Title'
-                        data-lightbox-gallery='gallery1'
-                      >
-                        <div className='hover-text'>
-                          <h4>Embrayage</h4>
-                        </div>
-                        <img
-                          src='img/prestations/07-small.jpg'
-                          className='img-responsive'
-                          alt='Project Title'
-                        />{' '}
-                      </a>{' '}
-                    </div>
+            </div>
+            <div className="row">
+              <div className='col-6 col-md-4'>
+                <div className='garagiste-item'>
+                  <div className='hover-bg'>
+                    {' '}
+                    <a
+                      href='/embrayage'
+                      title='Project Title'
+                      data-lightbox-gallery='gallery1'
+                    >
+                      <div className='hover-text'>
+                        <h4>Embrayage</h4>
+                      </div>
+                      <img
+                        src='img/prestations/07-small.jpg'
+                        className='img-responsive'
+                        alt='Project Title'
+                      />{' '}
+                    </a>{' '}
                   </div>
                 </div>
-                <div className='col-6 col-md-4'>
-                  <div className='garagiste-item'>
-                    <div className='hover-bg'>
-                      {' '}
-                      <a
-                        href='/climatisation'
-                        title='Project Title'
-                        data-lightbox-gallery='gallery1'
-                      >
-                        <div className='hover-text'>
-                          <h4>Climatistation </h4>
-                        </div>
-                        <img
-                          src='img/prestations/08-small.jpg'
-                          className='img-responsive'
-                          alt='Project Title'
-                        />{' '}
-                      </a>{' '}
-                    </div>
-                  </div>
-                </div>
-
-
-                <div className='col-6 col-md-4'>
-                  <div className='garagiste-item'>
-                    <div className='hover-bg'>
-                      {' '}
-                      <a
-                        href='/decalaminage'
-                        title='Project Title'
-                        data-lightbox-gallery='gallery1'
-                      >
-                        <div className='hover-text'>
-                          <h4>Décalaminage </h4>
-                        </div>
-                        <img
-                          src='img/prestations/09-small.jpg'
-                          className='img-responsive'
-                          alt='Project Title'
-                        />{' '}
-                      </a>{' '}
-                    </div>
+              </div>
+              <div className='col-6 col-md-4'>
+                <div className='garagiste-item'>
+                  <div className='hover-bg'>
+                    {' '}
+                    <a
+                      href='/climatisation'
+                      title='Project Title'
+                      data-lightbox-gallery='gallery1'
+                    >
+                      <div className='hover-text'>
+                        <h4>Climatistation </h4>
+                      </div>
+                      <img
+                        src='img/prestations/08-small.jpg'
+                        className='img-responsive'
+                        alt='Project Title'
+                      />{' '}
+                    </a>{' '}
                   </div>
                 </div>
               </div>
 
+
+              <div className='col-6 col-md-4'>
+                <div className='garagiste-item'>
+                  <div className='hover-bg'>
+                    {' '}
+                    <a
+                      href='/decalaminage'
+                      title='Project Title'
+                      data-lightbox-gallery='gallery1'
+                    >
+                      <div className='hover-text'>
+                        <h4>Décalaminage </h4>
+                      </div>
+                      <img
+                        src='img/prestations/09-small.jpg'
+                        className='img-responsive'
+                        alt='Project Title'
+                      />{' '}
+                    </a>{' '}
+                  </div>
+                </div>
+              </div>
             </div>
+
           </div>
         </div>
       </div>
-   
-  
+      <br /> <br/><br /> <br/>
+      <Contact />
+      </div>
+    
+
   )
 }
